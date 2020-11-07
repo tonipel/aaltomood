@@ -1,0 +1,660 @@
+
+
+--Generate person with id 1
+INSERT INTO mood_person
+VALUES(1, 5);
+--Inserting moods for person 1
+INSERT INTO mood_mood
+VALUES(1001, '2020-11-01', 0, 4, 1);
+INSERT INTO mood_mood
+VALUES(1002, '2020-11-02', 0, 5, 1);
+INSERT INTO mood_mood
+VALUES(1003, '2020-11-03', 0, 4, 1);
+INSERT INTO mood_mood
+VALUES(1004, '2020-11-04', 0, 5, 1);
+INSERT INTO mood_mood
+VALUES(1005, '2020-11-05', 0, 5, 1);
+INSERT INTO mood_mood
+VALUES(1006, '2020-11-06', 0, 3, 1);
+INSERT INTO mood_mood
+VALUES(1007, '2020-11-07', 0, 5, 1);
+INSERT INTO mood_mood
+VALUES(1008, '2020-11-08', 0, 5, 1);
+INSERT INTO mood_mood
+VALUES(1009, '2020-11-09', 0, 5, 1);
+INSERT INTO mood_mood
+VALUES(1010, '2020-11-10', 0, 4, 1);
+INSERT INTO mood_mood
+VALUES(1011, '2020-11-11', 0, 4, 1);
+INSERT INTO mood_mood
+VALUES(1012, '2020-11-12', 0, 5, 1);
+INSERT INTO mood_mood
+VALUES(1013, '2020-11-13', 0, 4, 1);
+INSERT INTO mood_mood
+VALUES(1014, '2020-11-14', 0, 5, 1);
+INSERT INTO mood_mood
+VALUES(1015, '2020-11-15', 0, 5, 1);
+INSERT INTO mood_mood
+VALUES(1016, '2020-11-16', 0, 5, 1);
+INSERT INTO mood_mood
+VALUES(1017, '2020-11-17', 0, 4, 1);
+INSERT INTO mood_mood
+VALUES(1018, '2020-11-18', 0, 5, 1);
+INSERT INTO mood_mood
+VALUES(1019, '2020-11-19', 0, 5, 1);
+INSERT INTO mood_mood
+VALUES(1020, '2020-11-20', 0, 4, 1);
+INSERT INTO mood_mood
+VALUES(1021, '2020-11-21', 0, 5, 1);
+INSERT INTO mood_mood
+VALUES(1022, '2020-11-22', 0, 4, 1);
+INSERT INTO mood_mood
+VALUES(1023, '2020-11-23', 0, 5, 1);
+INSERT INTO mood_mood
+VALUES(1024, '2020-11-24', 0, 5, 1);
+INSERT INTO mood_mood
+VALUES(1025, '2020-11-25', 0, 4, 1);
+INSERT INTO mood_mood
+VALUES(1026, '2020-11-26', 0, 4, 1);
+INSERT INTO mood_mood
+VALUES(1027, '2020-11-27', 0, 5, 1);
+INSERT INTO mood_mood
+VALUES(1028, '2020-11-28', 0, 4, 1);
+INSERT INTO mood_mood
+VALUES(1029, '2020-11-29', 0, 5, 1);
+INSERT INTO mood_mood
+VALUES(1030, '2020-11-30', 0, 5, 1);
+
+
+--Generate person with id 2
+INSERT INTO mood_person
+VALUES(2, 2);
+--Inserting moods for person 2
+INSERT INTO mood_mood
+VALUES(2001, '2020-11-01', 0, 4, 2);
+INSERT INTO mood_mood
+VALUES(2002, '2020-11-02', 0, 1, 2);
+INSERT INTO mood_mood
+VALUES(2003, '2020-11-03', 0, 2, 2);
+INSERT INTO mood_mood
+VALUES(2004, '2020-11-04', 0, 1, 2);
+INSERT INTO mood_mood
+VALUES(2005, '2020-11-05', 0, 2, 2);
+INSERT INTO mood_mood
+VALUES(2006, '2020-11-06', 0, 2, 2);
+INSERT INTO mood_mood
+VALUES(2007, '2020-11-07', 0, 2, 2);
+INSERT INTO mood_mood
+VALUES(2008, '2020-11-08', 0, 1, 2);
+INSERT INTO mood_mood
+VALUES(2009, '2020-11-09', 0, 1, 2);
+INSERT INTO mood_mood
+VALUES(2010, '2020-11-10', 0, 2, 2);
+INSERT INTO mood_mood
+VALUES(2011, '2020-11-11', 0, 1, 2);
+INSERT INTO mood_mood
+VALUES(2012, '2020-11-12', 0, 1, 2);
+INSERT INTO mood_mood
+VALUES(2013, '2020-11-13', 0, 3, 2);
+INSERT INTO mood_mood
+VALUES(2014, '2020-11-14', 0, 1, 2);
+INSERT INTO mood_mood
+VALUES(2015, '2020-11-15', 0, 5, 2);
+INSERT INTO mood_mood
+VALUES(2016, '2020-11-16', 0, 2, 2);
+INSERT INTO mood_mood
+VALUES(2017, '2020-11-17', 0, 2, 2);
+INSERT INTO mood_mood
+VALUES(2018, '2020-11-18', 0, 3, 2);
+INSERT INTO mood_mood
+VALUES(2019, '2020-11-19', 0, 1, 2);
+INSERT INTO mood_mood
+VALUES(2020, '2020-11-20', 0, 4, 2);
+INSERT INTO mood_mood
+VALUES(2021, '2020-11-21', 0, 1, 2);
+INSERT INTO mood_mood
+VALUES(2022, '2020-11-22', 0, 3, 2);
+INSERT INTO mood_mood
+VALUES(2023, '2020-11-23', 0, 0, 2);
+INSERT INTO mood_mood
+VALUES(2024, '2020-11-24', 0, 1, 2);
+INSERT INTO mood_mood
+VALUES(2025, '2020-11-25', 0, 3, 2);
+INSERT INTO mood_mood
+VALUES(2026, '2020-11-26', 0, 5, 2);
+INSERT INTO mood_mood
+VALUES(2027, '2020-11-27', 0, 2, 2);
+INSERT INTO mood_mood
+VALUES(2028, '2020-11-28', 0, 4, 2);
+INSERT INTO mood_mood
+VALUES(2029, '2020-11-29', 0, 2, 2);
+INSERT INTO mood_mood
+VALUES(2030, '2020-11-30', 0, 0, 2);
+
+
+--Generate person with id 3
+INSERT INTO mood_person
+VALUES(3, 4);
+--Inserting moods for person 3
+INSERT INTO mood_mood
+VALUES(3001, '2020-11-01', 0, 2, 3);
+INSERT INTO mood_mood
+VALUES(3002, '2020-11-02', 0, 4, 3);
+INSERT INTO mood_mood
+VALUES(3003, '2020-11-03', 0, 4, 3);
+INSERT INTO mood_mood
+VALUES(3004, '2020-11-04', 0, 4, 3);
+INSERT INTO mood_mood
+VALUES(3005, '2020-11-05', 0, 3, 3);
+INSERT INTO mood_mood
+VALUES(3006, '2020-11-06', 0, 3, 3);
+INSERT INTO mood_mood
+VALUES(3007, '2020-11-07', 0, 3, 3);
+INSERT INTO mood_mood
+VALUES(3008, '2020-11-08', 0, 4, 3);
+INSERT INTO mood_mood
+VALUES(3009, '2020-11-09', 0, 4, 3);
+INSERT INTO mood_mood
+VALUES(3010, '2020-11-10', 0, 3, 3);
+INSERT INTO mood_mood
+VALUES(3011, '2020-11-11', 0, 2, 3);
+INSERT INTO mood_mood
+VALUES(3012, '2020-11-12', 0, 5, 3);
+INSERT INTO mood_mood
+VALUES(3013, '2020-11-13', 0, 4, 3);
+INSERT INTO mood_mood
+VALUES(3014, '2020-11-14', 0, 4, 3);
+INSERT INTO mood_mood
+VALUES(3015, '2020-11-15', 0, 2, 3);
+INSERT INTO mood_mood
+VALUES(3016, '2020-11-16', 0, 4, 3);
+INSERT INTO mood_mood
+VALUES(3017, '2020-11-17', 0, 3, 3);
+INSERT INTO mood_mood
+VALUES(3018, '2020-11-18', 0, 2, 3);
+INSERT INTO mood_mood
+VALUES(3019, '2020-11-19', 0, 5, 3);
+INSERT INTO mood_mood
+VALUES(3020, '2020-11-20', 0, 4, 3);
+INSERT INTO mood_mood
+VALUES(3021, '2020-11-21', 0, 3, 3);
+INSERT INTO mood_mood
+VALUES(3022, '2020-11-22', 0, 5, 3);
+INSERT INTO mood_mood
+VALUES(3023, '2020-11-23', 0, 4, 3);
+INSERT INTO mood_mood
+VALUES(3024, '2020-11-24', 0, 4, 3);
+INSERT INTO mood_mood
+VALUES(3025, '2020-11-25', 0, 4, 3);
+INSERT INTO mood_mood
+VALUES(3026, '2020-11-26', 0, 5, 3);
+INSERT INTO mood_mood
+VALUES(3027, '2020-11-27', 0, 2, 3);
+INSERT INTO mood_mood
+VALUES(3028, '2020-11-28', 0, 2, 3);
+INSERT INTO mood_mood
+VALUES(3029, '2020-11-29', 0, 4, 3);
+INSERT INTO mood_mood
+VALUES(3030, '2020-11-30', 0, 4, 3);
+
+
+--Generate person with id 4
+INSERT INTO mood_person
+VALUES(4, 2);
+--Inserting moods for person 4
+INSERT INTO mood_mood
+VALUES(4001, '2020-11-01', 0, 2, 4);
+INSERT INTO mood_mood
+VALUES(4002, '2020-11-02', 0, 1, 4);
+INSERT INTO mood_mood
+VALUES(4003, '2020-11-03', 0, 1, 4);
+INSERT INTO mood_mood
+VALUES(4004, '2020-11-04', 0, 1, 4);
+INSERT INTO mood_mood
+VALUES(4005, '2020-11-05', 0, 0, 4);
+INSERT INTO mood_mood
+VALUES(4006, '2020-11-06', 0, 2, 4);
+INSERT INTO mood_mood
+VALUES(4007, '2020-11-07', 0, 2, 4);
+INSERT INTO mood_mood
+VALUES(4008, '2020-11-08', 0, 3, 4);
+INSERT INTO mood_mood
+VALUES(4009, '2020-11-09', 0, 3, 4);
+INSERT INTO mood_mood
+VALUES(4010, '2020-11-10', 0, 3, 4);
+INSERT INTO mood_mood
+VALUES(4011, '2020-11-11', 0, 1, 4);
+INSERT INTO mood_mood
+VALUES(4012, '2020-11-12', 0, 0, 4);
+INSERT INTO mood_mood
+VALUES(4013, '2020-11-13', 0, 2, 4);
+INSERT INTO mood_mood
+VALUES(4014, '2020-11-14', 0, 1, 4);
+INSERT INTO mood_mood
+VALUES(4015, '2020-11-15', 0, 2, 4);
+INSERT INTO mood_mood
+VALUES(4016, '2020-11-16', 0, 1, 4);
+INSERT INTO mood_mood
+VALUES(4017, '2020-11-17', 0, 2, 4);
+INSERT INTO mood_mood
+VALUES(4018, '2020-11-18', 0, 4, 4);
+INSERT INTO mood_mood
+VALUES(4019, '2020-11-19', 0, 2, 4);
+INSERT INTO mood_mood
+VALUES(4020, '2020-11-20', 0, 1, 4);
+INSERT INTO mood_mood
+VALUES(4021, '2020-11-21', 0, 1, 4);
+INSERT INTO mood_mood
+VALUES(4022, '2020-11-22', 0, 1, 4);
+INSERT INTO mood_mood
+VALUES(4023, '2020-11-23', 0, 1, 4);
+INSERT INTO mood_mood
+VALUES(4024, '2020-11-24', 0, 0, 4);
+INSERT INTO mood_mood
+VALUES(4025, '2020-11-25', 0, 1, 4);
+INSERT INTO mood_mood
+VALUES(4026, '2020-11-26', 0, 2, 4);
+INSERT INTO mood_mood
+VALUES(4027, '2020-11-27', 0, 0, 4);
+INSERT INTO mood_mood
+VALUES(4028, '2020-11-28', 0, 3, 4);
+INSERT INTO mood_mood
+VALUES(4029, '2020-11-29', 0, 3, 4);
+INSERT INTO mood_mood
+VALUES(4030, '2020-11-30', 0, 2, 4);
+
+
+--Generate person with id 5
+INSERT INTO mood_person
+VALUES(5, 1);
+--Inserting moods for person 5
+INSERT INTO mood_mood
+VALUES(5001, '2020-11-01', 0, 1, 5);
+INSERT INTO mood_mood
+VALUES(5002, '2020-11-02', 0, 0, 5);
+INSERT INTO mood_mood
+VALUES(5003, '2020-11-03', 0, 0, 5);
+INSERT INTO mood_mood
+VALUES(5004, '2020-11-04', 0, 1, 5);
+INSERT INTO mood_mood
+VALUES(5005, '2020-11-05', 0, 1, 5);
+INSERT INTO mood_mood
+VALUES(5006, '2020-11-06', 0, 2, 5);
+INSERT INTO mood_mood
+VALUES(5007, '2020-11-07', 0, 0, 5);
+INSERT INTO mood_mood
+VALUES(5008, '2020-11-08', 0, 0, 5);
+INSERT INTO mood_mood
+VALUES(5009, '2020-11-09', 0, 0, 5);
+INSERT INTO mood_mood
+VALUES(5010, '2020-11-10', 0, 1, 5);
+INSERT INTO mood_mood
+VALUES(5011, '2020-11-11', 0, 1, 5);
+INSERT INTO mood_mood
+VALUES(5012, '2020-11-12', 0, 2, 5);
+INSERT INTO mood_mood
+VALUES(5013, '2020-11-13', 0, 0, 5);
+INSERT INTO mood_mood
+VALUES(5014, '2020-11-14', 0, 2, 5);
+INSERT INTO mood_mood
+VALUES(5015, '2020-11-15', 0, 0, 5);
+INSERT INTO mood_mood
+VALUES(5016, '2020-11-16', 0, 1, 5);
+INSERT INTO mood_mood
+VALUES(5017, '2020-11-17', 0, 1, 5);
+INSERT INTO mood_mood
+VALUES(5018, '2020-11-18', 0, 1, 5);
+INSERT INTO mood_mood
+VALUES(5019, '2020-11-19', 0, 1, 5);
+INSERT INTO mood_mood
+VALUES(5020, '2020-11-20', 0, 0, 5);
+INSERT INTO mood_mood
+VALUES(5021, '2020-11-21', 0, 2, 5);
+INSERT INTO mood_mood
+VALUES(5022, '2020-11-22', 0, 0, 5);
+INSERT INTO mood_mood
+VALUES(5023, '2020-11-23', 0, 1, 5);
+INSERT INTO mood_mood
+VALUES(5024, '2020-11-24', 0, 1, 5);
+INSERT INTO mood_mood
+VALUES(5025, '2020-11-25', 0, 0, 5);
+INSERT INTO mood_mood
+VALUES(5026, '2020-11-26', 0, 1, 5);
+INSERT INTO mood_mood
+VALUES(5027, '2020-11-27', 0, 0, 5);
+INSERT INTO mood_mood
+VALUES(5028, '2020-11-28', 0, 0, 5);
+INSERT INTO mood_mood
+VALUES(5029, '2020-11-29', 0, 2, 5);
+INSERT INTO mood_mood
+VALUES(5030, '2020-11-30', 0, 0, 5);
+
+
+--Generate person with id 6
+INSERT INTO mood_person
+VALUES(6, 3);
+--Inserting moods for person 6
+INSERT INTO mood_mood
+VALUES(6001, '2020-11-01', 0, 4, 6);
+INSERT INTO mood_mood
+VALUES(6002, '2020-11-02', 0, 1, 6);
+INSERT INTO mood_mood
+VALUES(6003, '2020-11-03', 0, 2, 6);
+INSERT INTO mood_mood
+VALUES(6004, '2020-11-04', 0, 2, 6);
+INSERT INTO mood_mood
+VALUES(6005, '2020-11-05', 0, 4, 6);
+INSERT INTO mood_mood
+VALUES(6006, '2020-11-06', 0, 3, 6);
+INSERT INTO mood_mood
+VALUES(6007, '2020-11-07', 0, 3, 6);
+INSERT INTO mood_mood
+VALUES(6008, '2020-11-08', 0, 1, 6);
+INSERT INTO mood_mood
+VALUES(6009, '2020-11-09', 0, 1, 6);
+INSERT INTO mood_mood
+VALUES(6010, '2020-11-10', 0, 5, 6);
+INSERT INTO mood_mood
+VALUES(6011, '2020-11-11', 0, 0, 6);
+INSERT INTO mood_mood
+VALUES(6012, '2020-11-12', 0, 5, 6);
+INSERT INTO mood_mood
+VALUES(6013, '2020-11-13', 0, 3, 6);
+INSERT INTO mood_mood
+VALUES(6014, '2020-11-14', 0, 1, 6);
+INSERT INTO mood_mood
+VALUES(6015, '2020-11-15', 0, 4, 6);
+INSERT INTO mood_mood
+VALUES(6016, '2020-11-16', 0, 3, 6);
+INSERT INTO mood_mood
+VALUES(6017, '2020-11-17', 0, 2, 6);
+INSERT INTO mood_mood
+VALUES(6018, '2020-11-18', 0, 2, 6);
+INSERT INTO mood_mood
+VALUES(6019, '2020-11-19', 0, 3, 6);
+INSERT INTO mood_mood
+VALUES(6020, '2020-11-20', 0, 4, 6);
+INSERT INTO mood_mood
+VALUES(6021, '2020-11-21', 0, 3, 6);
+INSERT INTO mood_mood
+VALUES(6022, '2020-11-22', 0, 3, 6);
+INSERT INTO mood_mood
+VALUES(6023, '2020-11-23', 0, 1, 6);
+INSERT INTO mood_mood
+VALUES(6024, '2020-11-24', 0, 1, 6);
+INSERT INTO mood_mood
+VALUES(6025, '2020-11-25', 0, 3, 6);
+INSERT INTO mood_mood
+VALUES(6026, '2020-11-26', 0, 3, 6);
+INSERT INTO mood_mood
+VALUES(6027, '2020-11-27', 0, 5, 6);
+INSERT INTO mood_mood
+VALUES(6028, '2020-11-28', 0, 0, 6);
+INSERT INTO mood_mood
+VALUES(6029, '2020-11-29', 0, 2, 6);
+INSERT INTO mood_mood
+VALUES(6030, '2020-11-30', 0, 4, 6);
+
+
+--Generate person with id 7
+INSERT INTO mood_person
+VALUES(7, 2);
+--Inserting moods for person 7
+INSERT INTO mood_mood
+VALUES(7001, '2020-11-01', 0, 0, 7);
+INSERT INTO mood_mood
+VALUES(7002, '2020-11-02', 0, 3, 7);
+INSERT INTO mood_mood
+VALUES(7003, '2020-11-03', 0, 0, 7);
+INSERT INTO mood_mood
+VALUES(7004, '2020-11-04', 0, 1, 7);
+INSERT INTO mood_mood
+VALUES(7005, '2020-11-05', 0, 0, 7);
+INSERT INTO mood_mood
+VALUES(7006, '2020-11-06', 0, 1, 7);
+INSERT INTO mood_mood
+VALUES(7007, '2020-11-07', 0, 2, 7);
+INSERT INTO mood_mood
+VALUES(7008, '2020-11-08', 0, 4, 7);
+INSERT INTO mood_mood
+VALUES(7009, '2020-11-09', 0, 2, 7);
+INSERT INTO mood_mood
+VALUES(7010, '2020-11-10', 0, 3, 7);
+INSERT INTO mood_mood
+VALUES(7011, '2020-11-11', 0, 3, 7);
+INSERT INTO mood_mood
+VALUES(7012, '2020-11-12', 0, 4, 7);
+INSERT INTO mood_mood
+VALUES(7013, '2020-11-13', 0, 0, 7);
+INSERT INTO mood_mood
+VALUES(7014, '2020-11-14', 0, 1, 7);
+INSERT INTO mood_mood
+VALUES(7015, '2020-11-15', 0, 4, 7);
+INSERT INTO mood_mood
+VALUES(7016, '2020-11-16', 0, 5, 7);
+INSERT INTO mood_mood
+VALUES(7017, '2020-11-17', 0, 4, 7);
+INSERT INTO mood_mood
+VALUES(7018, '2020-11-18', 0, 2, 7);
+INSERT INTO mood_mood
+VALUES(7019, '2020-11-19', 0, 2, 7);
+INSERT INTO mood_mood
+VALUES(7020, '2020-11-20', 0, 4, 7);
+INSERT INTO mood_mood
+VALUES(7021, '2020-11-21', 0, 2, 7);
+INSERT INTO mood_mood
+VALUES(7022, '2020-11-22', 0, 2, 7);
+INSERT INTO mood_mood
+VALUES(7023, '2020-11-23', 0, 2, 7);
+INSERT INTO mood_mood
+VALUES(7024, '2020-11-24', 0, 0, 7);
+INSERT INTO mood_mood
+VALUES(7025, '2020-11-25', 0, 1, 7);
+INSERT INTO mood_mood
+VALUES(7026, '2020-11-26', 0, 1, 7);
+INSERT INTO mood_mood
+VALUES(7027, '2020-11-27', 0, 3, 7);
+INSERT INTO mood_mood
+VALUES(7028, '2020-11-28', 0, 2, 7);
+INSERT INTO mood_mood
+VALUES(7029, '2020-11-29', 0, 2, 7);
+INSERT INTO mood_mood
+VALUES(7030, '2020-11-30', 0, 1, 7);
+
+
+--Generate person with id 8
+INSERT INTO mood_person
+VALUES(8, 5);
+--Inserting moods for person 8
+INSERT INTO mood_mood
+VALUES(8001, '2020-11-01', 0, 5, 8);
+INSERT INTO mood_mood
+VALUES(8002, '2020-11-02', 0, 4, 8);
+INSERT INTO mood_mood
+VALUES(8003, '2020-11-03', 0, 4, 8);
+INSERT INTO mood_mood
+VALUES(8004, '2020-11-04', 0, 3, 8);
+INSERT INTO mood_mood
+VALUES(8005, '2020-11-05', 0, 4, 8);
+INSERT INTO mood_mood
+VALUES(8006, '2020-11-06', 0, 4, 8);
+INSERT INTO mood_mood
+VALUES(8007, '2020-11-07', 0, 5, 8);
+INSERT INTO mood_mood
+VALUES(8008, '2020-11-08', 0, 5, 8);
+INSERT INTO mood_mood
+VALUES(8009, '2020-11-09', 0, 5, 8);
+INSERT INTO mood_mood
+VALUES(8010, '2020-11-10', 0, 5, 8);
+INSERT INTO mood_mood
+VALUES(8011, '2020-11-11', 0, 4, 8);
+INSERT INTO mood_mood
+VALUES(8012, '2020-11-12', 0, 4, 8);
+INSERT INTO mood_mood
+VALUES(8013, '2020-11-13', 0, 3, 8);
+INSERT INTO mood_mood
+VALUES(8014, '2020-11-14', 0, 5, 8);
+INSERT INTO mood_mood
+VALUES(8015, '2020-11-15', 0, 4, 8);
+INSERT INTO mood_mood
+VALUES(8016, '2020-11-16', 0, 4, 8);
+INSERT INTO mood_mood
+VALUES(8017, '2020-11-17', 0, 3, 8);
+INSERT INTO mood_mood
+VALUES(8018, '2020-11-18', 0, 5, 8);
+INSERT INTO mood_mood
+VALUES(8019, '2020-11-19', 0, 5, 8);
+INSERT INTO mood_mood
+VALUES(8020, '2020-11-20', 0, 3, 8);
+INSERT INTO mood_mood
+VALUES(8021, '2020-11-21', 0, 4, 8);
+INSERT INTO mood_mood
+VALUES(8022, '2020-11-22', 0, 4, 8);
+INSERT INTO mood_mood
+VALUES(8023, '2020-11-23', 0, 5, 8);
+INSERT INTO mood_mood
+VALUES(8024, '2020-11-24', 0, 5, 8);
+INSERT INTO mood_mood
+VALUES(8025, '2020-11-25', 0, 5, 8);
+INSERT INTO mood_mood
+VALUES(8026, '2020-11-26', 0, 5, 8);
+INSERT INTO mood_mood
+VALUES(8027, '2020-11-27', 0, 3, 8);
+INSERT INTO mood_mood
+VALUES(8028, '2020-11-28', 0, 5, 8);
+INSERT INTO mood_mood
+VALUES(8029, '2020-11-29', 0, 5, 8);
+INSERT INTO mood_mood
+VALUES(8030, '2020-11-30', 0, 5, 8);
+
+
+--Generate person with id 9
+INSERT INTO mood_person
+VALUES(9, 4);
+--Inserting moods for person 9
+INSERT INTO mood_mood
+VALUES(9001, '2020-11-01', 0, 3, 9);
+INSERT INTO mood_mood
+VALUES(9002, '2020-11-02', 0, 5, 9);
+INSERT INTO mood_mood
+VALUES(9003, '2020-11-03', 0, 4, 9);
+INSERT INTO mood_mood
+VALUES(9004, '2020-11-04', 0, 3, 9);
+INSERT INTO mood_mood
+VALUES(9005, '2020-11-05', 0, 5, 9);
+INSERT INTO mood_mood
+VALUES(9006, '2020-11-06', 0, 3, 9);
+INSERT INTO mood_mood
+VALUES(9007, '2020-11-07', 0, 3, 9);
+INSERT INTO mood_mood
+VALUES(9008, '2020-11-08', 0, 5, 9);
+INSERT INTO mood_mood
+VALUES(9009, '2020-11-09', 0, 4, 9);
+INSERT INTO mood_mood
+VALUES(9010, '2020-11-10', 0, 5, 9);
+INSERT INTO mood_mood
+VALUES(9011, '2020-11-11', 0, 5, 9);
+INSERT INTO mood_mood
+VALUES(9012, '2020-11-12', 0, 4, 9);
+INSERT INTO mood_mood
+VALUES(9013, '2020-11-13', 0, 4, 9);
+INSERT INTO mood_mood
+VALUES(9014, '2020-11-14', 0, 4, 9);
+INSERT INTO mood_mood
+VALUES(9015, '2020-11-15', 0, 4, 9);
+INSERT INTO mood_mood
+VALUES(9016, '2020-11-16', 0, 4, 9);
+INSERT INTO mood_mood
+VALUES(9017, '2020-11-17', 0, 2, 9);
+INSERT INTO mood_mood
+VALUES(9018, '2020-11-18', 0, 4, 9);
+INSERT INTO mood_mood
+VALUES(9019, '2020-11-19', 0, 2, 9);
+INSERT INTO mood_mood
+VALUES(9020, '2020-11-20', 0, 4, 9);
+INSERT INTO mood_mood
+VALUES(9021, '2020-11-21', 0, 4, 9);
+INSERT INTO mood_mood
+VALUES(9022, '2020-11-22', 0, 3, 9);
+INSERT INTO mood_mood
+VALUES(9023, '2020-11-23', 0, 5, 9);
+INSERT INTO mood_mood
+VALUES(9024, '2020-11-24', 0, 4, 9);
+INSERT INTO mood_mood
+VALUES(9025, '2020-11-25', 0, 4, 9);
+INSERT INTO mood_mood
+VALUES(9026, '2020-11-26', 0, 3, 9);
+INSERT INTO mood_mood
+VALUES(9027, '2020-11-27', 0, 4, 9);
+INSERT INTO mood_mood
+VALUES(9028, '2020-11-28', 0, 5, 9);
+INSERT INTO mood_mood
+VALUES(9029, '2020-11-29', 0, 3, 9);
+INSERT INTO mood_mood
+VALUES(9030, '2020-11-30', 0, 4, 9);
+
+
+--Generate person with id 10
+INSERT INTO mood_person
+VALUES(10, 3);
+--Inserting moods for person 10
+INSERT INTO mood_mood
+VALUES(10001, '2020-11-01', 0, 1, 10);
+INSERT INTO mood_mood
+VALUES(10002, '2020-11-02', 0, 5, 10);
+INSERT INTO mood_mood
+VALUES(10003, '2020-11-03', 0, 2, 10);
+INSERT INTO mood_mood
+VALUES(10004, '2020-11-04', 0, 5, 10);
+INSERT INTO mood_mood
+VALUES(10005, '2020-11-05', 0, 2, 10);
+INSERT INTO mood_mood
+VALUES(10006, '2020-11-06', 0, 2, 10);
+INSERT INTO mood_mood
+VALUES(10007, '2020-11-07', 0, 1, 10);
+INSERT INTO mood_mood
+VALUES(10008, '2020-11-08', 0, 4, 10);
+INSERT INTO mood_mood
+VALUES(10009, '2020-11-09', 0, 3, 10);
+INSERT INTO mood_mood
+VALUES(10010, '2020-11-10', 0, 4, 10);
+INSERT INTO mood_mood
+VALUES(10011, '2020-11-11', 0, 4, 10);
+INSERT INTO mood_mood
+VALUES(10012, '2020-11-12', 0, 3, 10);
+INSERT INTO mood_mood
+VALUES(10013, '2020-11-13', 0, 3, 10);
+INSERT INTO mood_mood
+VALUES(10014, '2020-11-14', 0, 3, 10);
+INSERT INTO mood_mood
+VALUES(10015, '2020-11-15', 0, 4, 10);
+INSERT INTO mood_mood
+VALUES(10016, '2020-11-16', 0, 2, 10);
+INSERT INTO mood_mood
+VALUES(10017, '2020-11-17', 0, 2, 10);
+INSERT INTO mood_mood
+VALUES(10018, '2020-11-18', 0, 4, 10);
+INSERT INTO mood_mood
+VALUES(10019, '2020-11-19', 0, 1, 10);
+INSERT INTO mood_mood
+VALUES(10020, '2020-11-20', 0, 2, 10);
+INSERT INTO mood_mood
+VALUES(10021, '2020-11-21', 0, 4, 10);
+INSERT INTO mood_mood
+VALUES(10022, '2020-11-22', 0, 1, 10);
+INSERT INTO mood_mood
+VALUES(10023, '2020-11-23', 0, 3, 10);
+INSERT INTO mood_mood
+VALUES(10024, '2020-11-24', 0, 2, 10);
+INSERT INTO mood_mood
+VALUES(10025, '2020-11-25', 0, 1, 10);
+INSERT INTO mood_mood
+VALUES(10026, '2020-11-26', 0, 3, 10);
+INSERT INTO mood_mood
+VALUES(10027, '2020-11-27', 0, 2, 10);
+INSERT INTO mood_mood
+VALUES(10028, '2020-11-28', 0, 1, 10);
+INSERT INTO mood_mood
+VALUES(10029, '2020-11-29', 0, 4, 10);
+INSERT INTO mood_mood
+VALUES(10030, '2020-11-30', 0, 4, 10);
