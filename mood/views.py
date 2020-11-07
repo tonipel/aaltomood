@@ -1,14 +1,8 @@
 import datetime
-from django.views.generic import ListView
 from django.shortcuts import render
 from mood.models import Mood, Questions, Person
 from django.views.generic.base import TemplateView
 from django.contrib.auth.mixins import LoginRequiredMixin
-
-class MoodListView(ListView):
-    template_name = 'mood_list.html'
-    context_object_name = 'mood_list'
-    model = Mood
 
 class HomePage(LoginRequiredMixin, TemplateView):
     template_name = 'home.html'
