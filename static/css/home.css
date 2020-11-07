@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'graphik-bold';
+    src: local('GraphikBold'), url('../fonts/GraphikBold.ttf') format("truetype");
+  }
+
+@font-face {
+    font-family: 'graphik-regular';
+    src: local('GraphikRegular'), url('../fonts/GraphikRegular.ttf') format("truetype");
+}
+
 
 .background {
     height: 800px;
@@ -8,7 +18,7 @@
 
 .header{
     position: absolute;
-    font-family: graphik;
+    font-family: graphik-bold;
     font-size:120px;
     color:black;
     line-height:0.8;
@@ -39,7 +49,7 @@
 
 .body_black{
     position: absolute;
-    font-family: graphik;
+    font-family: graphik-regular;
     font-size:40px;
     line-height:0.8;
     color:black;
