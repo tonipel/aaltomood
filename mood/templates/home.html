@@ -31,6 +31,15 @@
 <section>
     <div class="parallax-three">
       <h2>Lorem ipmsum</h2>
+      <form method="post">
+        {% csrf_token %}
+        <h2>{{ question.question_text }}</h2>
+        <input type="radio" name="choice" id="yes" checked>
+            <label for="yes">Yes</label>
+            <input type="radio" name="choice" id="no">
+            <label for="no">No</label>
+        <input type="submit" value="Confirm answer">
+      </form>
     </div>
 </section>
 
