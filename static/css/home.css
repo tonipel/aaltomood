@@ -22,29 +22,28 @@
     font-size:120px;
     color:black;
     line-height:0.8;
-    left: 70px;
-    top: 150px;
 }
 
 .header2{
     position: absolute;
-    font-family: graphik;
-    font-size:80px;
+    font-family: graphik-bold;
+    font-size:70px;
     color:black;
     line-height:0.8;
-    left: 80px;
-    top: 100px;
+}
+
+.header_white{
+    position: absolute;
+    font-family: graphik-bold;
+    color:white;
+    line-height:1.2;
 }
 
 .body_white{
     position: absolute;
-    font-family: graphik;
-    font-style: italic;
-    line-height:0.8;
-    font-size:23px;
+    font-family: graphik-regular;
+    line-height:1.2;
     color:white;
-    left: 100px;
-    top: 300px;
 }
 
 .body_black{
@@ -53,8 +52,6 @@
     font-size:40px;
     line-height:0.8;
     color:black;
-    left: 100px;
-    top: 550px;
 }
 
 .avp_logo {

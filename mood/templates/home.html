@@ -7,51 +7,65 @@
 
 <section>
     <div class="parallax-one">
-        <h2 class="header">Aaltoileva
+        <h2 class="header" style="left:60px;top:160px">Aaltoileva
         </h2>
-        <div class="body_white"><p>[a:ltoileva] adj wavy, billowy, surfy, fluctuating</p>
-            <p>Alvarin mieliala on aaltoileva. Alvari’s mood is fluctuating.
+        <div class="body_white" style="font-size:22px;left:80px;top:300px"><p>[a:ltoileva] adj. <span style="font-style:italic;"> wavy, billowy, surfy, fluctuating</span></p>
+            <p>Alvarin mieliala on aaltoileva. <span style="font-style:italic;">Alvari’s mood is fluctuating.</span>
             </p>
         </div>
-        <div class="body_black"><p>You’re not alone.</p>
-            <p>It’s common for us Aalto feel.</p> 
+        <div class="body_black" style="left:80px;top:450px;font-size:35px"><p>You’re not alone.</p>
+            <p>It’s common for us Aalto feel that way.</p> 
         </div>
     </div>
 </section>
 
 <section>
     <div class="parallax-two">
-      <h2>
-          <div class="header2">How are you right now?</div></h2>
-          <div class="body_white"><button class="link">I’m not sure?</button></div>
+        <h2><div class="header2" style="top:190px;left:80px">How are you right now?</div></h2>
+
+        <div class="body_white" style="font-size:30px;left:130px;top:300px;line-height:1.4">
+            <p><button class="link" style=color:white>I’m not sure?</button></p>
+            <p><button class="link" style=color:white>Never been better!</button></p>
+            <p><button class="link" style=color:white>Fine and dandy, thx.</button></p>
+            <p><button class="link" style=color:white>Same old, same old.</button></p>
+            <p><button class="link" style=color:white>Meh. Really tired.</button></p>
+            <p><button class="link" style=color:white>Struggling...</button></p>
+        </div>
           
     </div>
 </section>
 
 <section>
     <div class="parallax-three">
-      <h2>Lorem ipmsum</h2>
       <form method="post">
         {% csrf_token %}
-        <h2>{{ question.question_text }}</h2>
+        <div class="header_white" style="font-size:60px;right:30px;top:150px">{{ question.question_text }}</div>
         <input type="radio" name="choice" id="yes" checked>
-            <label for="yes">Yes</label>
+            <label for="yes" style="font-size:100px">Yes</label>
             <input type="radio" name="choice" id="no">
             <label for="no">No</label>
         <input type="submit" value="Confirm answer">
       </form>
+  
+
     </div>
 </section>
 
 <section>
     <div class="parallax-four">
-      <h2>Lorem ipmsum</h2>
+        <div class="header_white" style="font-size:80px;top:80px;left:50px"><p>It is normal to feel </p>
+            <p>tired at times</p></div>
+        <div class="body_black" style="left:80px;top:300px"><p>Actually Elina and 98 others at Aalto </p>
+            <p>are feeling tired right now too.</p></div>
+
+         
+    </h2>
     </div>
 </section>
 
 <section>
     <div class="parallax-five">
-      <h2>Lorem ipmsum</h2>
+      <div class="header" style="font-size:50px">You are not alone.</div>
     </div>
 </section>
 
