@@ -12,9 +12,13 @@ class MoodListView(ListView):
 
 class HomePage(LoginRequiredMixin, TemplateView):
     template_name = 'home.html'
+
+    def get_data_to_render(self):
+        context = {'question': Questions.objects.first()}
+        return context
     
     def get(self, request, *args, **kwargs):
-        context = {'question': Questions.objects.first()}
+        context = self.get_data_to_render()
         return render(request, "home.html", context=context)
 
     def post(self, request, *args, **kwargs):
@@ -22,7 +26,8 @@ class HomePage(LoginRequiredMixin, TemplateView):
             if str(i) in request.POST:
                 create_mood(str(i), request.user)
                 break
-        return render(request, "home.html")
+        context = self.get_data_to_render()
+        return render(request, "home.html", context=context)
 
 def create_mood(button_name_id, user):
     pass
