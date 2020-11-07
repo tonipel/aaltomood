@@ -18,3 +18,4 @@ class Answers(models.Model):
 class Questions(models.Model):
     influence = models.IntegerField(default=None)
     time = models.IntegerField(choices = [(i,i) for i in range(3)], default=None)
+    question_text = models.CharField(max_length=255, default=None)
