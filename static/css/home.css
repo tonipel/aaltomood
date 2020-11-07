@@ -25,7 +25,7 @@
 }
 
 .header2{
-    position: absolute;
+    position: relative;
     font-family: graphik-bold;
     font-size:70px;
     color:black;
@@ -52,6 +52,13 @@
     font-size:40px;
     line-height:0.8;
     color:black;
+}
+
+.body_black2{
+  font-family: graphik-regular;
+  font-size:40px;
+  line-height:0.8;
+  color:black;
 }
 
 .avp_logo {
@@ -96,4 +103,42 @@ figure img {
 
 figure figcaption {
   text-align: center;
+}
+/* Hide the browser's default checkbox */
+.container input {
+    position: relative;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  .checkmark {
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+  }
+
+  /* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  /* When the checkbox is checked, add a blue background */
+  .container input:checked ~ .checkmark {
+    background-color: rgb(45,181,133);
+  }
+
+.link{
+  font-style:graphik;
+  font-size:25px;
+  color:white;
+}
+
+
+.link:hover{
+    font-style:graphik-bold;
+    color:rgb(254,108,58)
 }

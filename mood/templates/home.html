@@ -19,36 +19,73 @@
     </div>
 </section>
 
-<section>
+    <section>
     <div class="parallax-two">
-        <h2><div class="header2" style="top:190px;left:80px">How are you right now?</div></h2>
-
-        <form method="post">
-            {% csrf_token %}
-            <div class="body_white" style="font-size:30px;left:130px;top:300px;line-height:1.4">
-                <p><button name="0" class="link" style=color:white>I’m not sure?</button></p>
-                <p><button name="1" class="link" style=color:white>Never been better!</button></p>
-                <p><button name="2" class="link" style=color:white>Fine and dandy, thx.</button></p>
-                <p><button name="3" class="link" style=color:white>Same old, same old.</button></p>
-                <p><button name="4" class="link" style=color:white>Meh. Really tired.</button></p>
-                <p><button name="5" class="link" style=color:white>Struggling...</button></p>
+            
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h2><div class="header2">How are you right now?</div></h2>
             </div>
-        </form>
-          
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <p><button class="link">I’m not sure?</button></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <p><button class="link" >Never been better!</button></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <p><button class="link" >Fine and dandy, thx.</button></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <p><button class="link" >Same old, same old.</button></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <p><button class="link" >Meh. Really tired.</button></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <p><button class="link" >Struggling...</button></p>
+            </div>
+        </div>
     </div>
-</section>
+
+            
+    </div>
+    </section>
 
 <section>
     <div class="parallax-three">
+        <p class="header_white" style="width:13em;font-size:40px;right:30px;top:150px">{{ question.question_text }}</p>
+
       <form method="post">
         {% csrf_token %}
-        <div class="header_white" style="font-size:60px;right:30px;top:150px">{{ question.question_text }}</div>
-        <input type="radio" name="choice" id="yes" checked>
-            <label for="yes" style="font-size:100px">Yes</label>
-            <input type="radio" name="choice" id="no">
-            <label for="no">No</label>
-        <input type="submit" value="Confirm answer">
-      </form>
+        
+        
+
+        <label class="container">
+            <input type="radio" name="dark" id="yes">
+            <span class="checkmark" style="top:420px;left:1000px"></span>
+            <span class="body_black" style="font-size:40px;top:420px;left:1040px">Yes</span>
+        </label>
+
+        <label class="container" >
+            <input type="radio" name="dark" id="yes"style="top:450px;left:300px" >
+            <span class="checkmark" style="top:500px;left:1000px"></span>
+            <span class="body_black" style="font-size:40px;top:500px;left:1040px">No</span>
+        </label>
+
+        </section>
   
 
     </div>
@@ -82,8 +119,19 @@
 
 <section>
     <div class="parallax-five">
-      <div class="header" style="font-size:50px">You are not alone.</div>
+      <div class="header_white" style="font-size:50px;right:150px;top:150px">You are not alone.</div>
+        
+      <div class="body_black" style="font-size:28px;right:180px;top:240px">
+        <p>Today <span style="font-family:graphik-bold">31%</span> of Aaltoees are</p>
+        <p>struggling with their studies.</p>
+        <p>This week <span style="font-family:graphik-bold">82%</span> have struggled</p>
+        <p>at some point.</p>
     </div>
+    
+    </div>
+
+    
+       
 </section>
 
 {% endblock %}
