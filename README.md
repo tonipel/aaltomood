@@ -18,7 +18,7 @@ Step 1: Clone Project
 
 Step 2: Install dependencies
 
-    $ pip install -r requirements.text
+    $ pip install -r requirements.txt
 
 Step 3: Apply migrations
 
