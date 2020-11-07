@@ -1,7 +1,9 @@
 # Aaltoileva
 
 ## Description
-    A website that acts as a demo for the Aaltoileva app. The app asks its users how they're feeling and if they're eg. stressed about their studies, after which it presents anonymized data about how other users are feeling. The purpose of the app is to increase the wellbeing of students by lowering their sense of emotional isolation.
+A website that acts as a demo for the Aaltoileva app. The app asks its users how they're feeling and if they're eg. stressed about their studies, after which it presents anonymized data about how other users are feeling. The purpose of the app is to increase the wellbeing of students by lowering their sense of emotional isolation.
+
+https://youtu.be/MfY4NVVWlk0
 
 ### Built With
 - Django 3.1.3 (back-end)
