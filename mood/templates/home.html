@@ -55,15 +55,29 @@
 </section>
 
 <section>
-    <div class="parallax-four">
-        <div class="header_white" style="font-size:80px;top:80px;left:50px"><p>It is normal to feel </p>
+  <div class="parallax-four">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="daily_data_header"><p>It is normal to feel </p>
             <p>tired at times</p></div>
-        <div class="body_black" style="left:80px;top:300px"><p>Actually Elina and 98 others at Aalto </p>
-            <p>are feeling tired right now too.</p></div>
-
-         
-    </h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="daily_data_text">Actually Elina and 98 others at Aalto
+           are feeling tired right now too.</div>
+      <!-- <img class="daily_data_img" src="{% static 'img/aalto_moods_today.png' %}" alt="Daily moods"> -->
+        </div>
+        <div class="col-sm-6">
+          <figure class="figure">
+            <img src="{% static 'img/aalto_moods_today.png' %}" class="figure-img img-fluid rounded" alt="Daily moods">
+            <figcaption class="figure-caption">Today's moods</figcaption>
+          </figure>
+        </div>
+      </div>
     </div>
+  </div>
 </section>
 
 <section>
