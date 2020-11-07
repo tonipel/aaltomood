@@ -1,0 +1,35 @@
+
+.background {
+    height: 800px;
+    background:#475d62 url('../img/login/Home_backg.png');
+    background-size:cover;
+    position:relative;
+  }
+
+.header{
+    position: absolute;
+    font-family: graphik;
+    font-size:120px;
+    color:black;
+    line-height:0.8;
+    left: 200px;
+    top: 100px;
+}
+
+.body_white{
+    position: absolute;
+    font-family: graphik;
+    font-size:40px;
+    color:white;
+    left: 200px;
+    top: 500px;
+}
+
+.body_black{
+    position: absolute;
+    font-family: graphik;
+    font-size:40px;
+    color:black;
+    left: 200px;
+    top: 650px;
+}
