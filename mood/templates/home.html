@@ -23,14 +23,17 @@
     <div class="parallax-two">
         <h2><div class="header2" style="top:190px;left:80px">How are you right now?</div></h2>
 
-        <div class="body_white" style="font-size:30px;left:130px;top:300px;line-height:1.4">
-            <p><button class="link" style=color:white>I’m not sure?</button></p>
-            <p><button class="link" style=color:white>Never been better!</button></p>
-            <p><button class="link" style=color:white>Fine and dandy, thx.</button></p>
-            <p><button class="link" style=color:white>Same old, same old.</button></p>
-            <p><button class="link" style=color:white>Meh. Really tired.</button></p>
-            <p><button class="link" style=color:white>Struggling...</button></p>
-        </div>
+        <form method="post">
+            {% csrf_token %}
+            <div class="body_white" style="font-size:30px;left:130px;top:300px;line-height:1.4">
+                <p><button name="0" class="link" style=color:white>I’m not sure?</button></p>
+                <p><button name="1" class="link" style=color:white>Never been better!</button></p>
+                <p><button name="2" class="link" style=color:white>Fine and dandy, thx.</button></p>
+                <p><button name="3" class="link" style=color:white>Same old, same old.</button></p>
+                <p><button name="4" class="link" style=color:white>Meh. Really tired.</button></p>
+                <p><button name="5" class="link" style=color:white>Struggling...</button></p>
+            </div>
+        </form>
           
     </div>
 </section>
